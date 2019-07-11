@@ -10,6 +10,7 @@ pipeline {
 		    ls -lah
 		    pwd
 		'''
+		sh 'printenv'
             }
         }
     }

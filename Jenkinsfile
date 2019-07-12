@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
 		sh 'mvn --version'
-		sh 'docker -v'
                 sh 'echo "Hello World"'
 		sh '''
 		    echo "Multiline shell steps works too"
